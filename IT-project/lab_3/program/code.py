@@ -1,4 +1,4 @@
-def median(data: list) -> float:
+def MEDIAN (data: list) -> float:
     if not data:
         return None #если список пустой
     sorted_values = sorted(data)
@@ -11,4 +11,4 @@ def median(data: list) -> float:
         return (sorted_values[mid - 1] + sorted_values[mid]) / 2
 
 nums = []
-print(median(nums))  
+print(MEDIAN (nums))  
